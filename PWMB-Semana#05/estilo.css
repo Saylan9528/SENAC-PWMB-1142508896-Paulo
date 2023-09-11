@@ -11,6 +11,15 @@ body {
     color: #333;
     line-height: 1.6;
 }
+.img {
+    height: 570px;
+    width: 935px;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 97vw;
+}
 
 .container {
     max-width: 1200px;
