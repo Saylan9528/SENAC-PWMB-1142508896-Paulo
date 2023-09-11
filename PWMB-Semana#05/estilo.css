@@ -19,6 +19,8 @@ body {
     align-items: center;
     margin: auto;
     width: 97vw;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -29,7 +31,7 @@ body {
 
 /* Estilos para cabeçalho */
 header {
-    background-color: #003366; /* Azul escuro associado a finanças */
+    background-color: #003366; 
     color: #fff;
     padding: 10px 0;
 }
@@ -78,7 +80,7 @@ ul {
 }
 /* Estilos para rodapé */
 footer {
-    background-color: #003366; /* Azul escuro associado a finanças */
+    background-color: #003366; 
     color: #fff;
     padding: 20px 0;
 }
