@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../assets/css/estilo.css">
     <title>Sign-in</title>
 </head>
-<body>
+<body class="login">
     <header>
     <nav>
         <h1>Login</h1>
@@ -24,28 +24,17 @@
 
        <main>
         <section>
-            <form>
+            <form class="form">
 
                 <h3>Login</h3>
                 <input type="text" placeholder="Usuário" id="login" required>
                 <input type="password" placeholder="Senha" id="senha" required>
-                <input type="submit" onclick="logar()">
+                <input type="submit" value="Entrar" onclick="logar()">
                 <p>Ainda não possui cadastro? <a href="cadastro.html">Clique Aqui!</a></p>
             </form>
         </section>
        </main>
 
-       <footer>
-        <h3>Assine nossa Newsletter</h3>
-        <form action="#" method="post">
-            <label for="Email">Email:</label>
-            <input type="text" name="email" required>
-            <button type="submit">Enviar</button>
-
-
-        </form>
-       </footer>
-       
     <script src="../assets/js/script.js"></script>
 </body>
 </html>

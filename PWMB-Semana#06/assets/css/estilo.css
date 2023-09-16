@@ -145,3 +145,106 @@ footer form button[type="submit"] {
 footer form button[type="submit"]:hover {
     background-color: #001f4d; 
 }
+
+body.login {
+    background: url('../images/woman-with-diagrams-office.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0; 
+    display: absolute;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* Estilos para o formulário de login */
+form.form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+body.cadastro {
+    background: url('../images/women-working-together-country-side.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0; 
+    display: absolute;
+    justify-content: center; 
+    align-items: center; 
+}
+form.cadastro-form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+
+.bloco {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    display: inline-block; /* Adicione esta linha */
+    margin-right: 52px; /* Adicione margem direita se desejar espaçamento */
+}
+
+   .detalhe-bloco {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .botao-bloco {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #001f4d;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+   
+   .texto-corpo {
+    color: rgb(134, 134, 134);
+   }
+   
+   /*Text*/
+   .titulo {
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   /*Hover*/
+   .bloco:hover {
+    border-color: #001f4d;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+    
+   }
+   
+   .bloco:hover .botao-bloco {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+    cursor: pointer;
+   }
