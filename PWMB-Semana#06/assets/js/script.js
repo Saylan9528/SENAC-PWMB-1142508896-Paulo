@@ -9,10 +9,4 @@ function logar(usuario, senha){
     }
 
 }
-function cadastro() {
-    var nome = document.getElementById('nome').value;
-    var usuario = document.getElementById('usuario').value;
-    var senha = document.getElementById('cad_senha').value;
-    var email = document.getElementById('email').value;
-    var empresa = document.getElementById('empresa').value;
-}
+
