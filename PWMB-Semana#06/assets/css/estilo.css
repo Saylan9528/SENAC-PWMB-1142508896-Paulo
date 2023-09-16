@@ -1,0 +1,147 @@
+/* Reset de estilos padrão do navegador */
+body, h1, h2, p, ul, li, form, input, button, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; 
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para cabeçalho */
+header {
+    background-color: #003366; 
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* Estilos para imagens */
+.img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+/* Estilos para o corpo */
+main {
+    padding: 20px;
+}
+
+/* Estilos para seções */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+ul {
+    list-style: none;
+}
+
+/* Estilos para rodapé */
+footer {
+    background-color: #003366; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; 
+}
+footer p {
+    margin-bottom: 10px;
+}
+
+/* Estilos para formulários e labels */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none; 
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto; 
+    padding: 10px;
+    background-color: #003366; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao, input[type="submit"]:hover {
+    background-color: #001f4d; 
+}
+/* Estilos para o botão "Enviar" no formulário da newsletter */
+footer form button[type="submit"] {
+    display: block;
+    margin: 0 auto; 
+    padding: 10px 20px; 
+    background-color: #003366; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+footer form button[type="submit"]:hover {
+    background-color: #001f4d; 
+}
