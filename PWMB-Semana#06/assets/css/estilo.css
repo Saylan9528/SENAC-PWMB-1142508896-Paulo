@@ -17,6 +17,55 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
+}
+
+/*Layout*/
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens{
+    width: 660px;
+    float:left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.post-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.img-post{
+    width: 620px;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.data-post{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*Lateral*/
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 /* Estilos para cabeçalho */
@@ -39,15 +88,30 @@ nav h1 {
     font-size: 24px;
 }
 
-.navbar ul {
+#navbar ul {
     list-style: none;
 }
 
-.navbar a {
+#navbar a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
     margin-right: 20px;
+}
+
+#navbar a{
+    text-decoration: none;
+}
+#navbar a:link,
+#navbar a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#navbar a:hover {
+    color: #003366;
+    background: #fff;
+    border-radius: 10px;
 }
 
 /* Estilos para imagens */
@@ -57,6 +121,7 @@ nav h1 {
     display: block; 
     margin: 0 auto; 
 }
+
 /* Estilos para o corpo */
 main {
     padding: 20px;
@@ -72,17 +137,19 @@ h2 {
     margin-bottom: 10px;
     text-align: center; 
 }
+
 ul {
     list-style: none;
 }
 
 /* Estilos para rodapé */
-footer {
-    background-color: #003366; 
-    color: #fff;
-    padding: 20px 0;
-    text-align: center; 
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background:#003366;
 }
+
 footer p {
     margin-bottom: 10px;
 }
@@ -130,121 +197,15 @@ input[type="submit"] {
 .botao, input[type="submit"]:hover {
     background-color: #001f4d; 
 }
-/* Estilos para o botão "Enviar" no formulário da newsletter */
-footer form button[type="submit"] {
-    display: block;
-    margin: 0 auto; 
-    padding: 10px 20px; 
-    background-color: #003366; 
-    color: #fff; 
-    border: none;
-    border-radius: 5px; 
-    cursor: pointer; 
-}
 
-footer form button[type="submit"]:hover {
-    background-color: #001f4d; 
-}
+/*links*/
 
-body.login {
-    background: url('../images/woman-with-diagrams-office.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    margin: 0; 
-    display: absolute;
-    justify-content: center; 
-    align-items: center; 
+a {
+    text-decoration: none;
 }
-
-/* Estilos para o formulário de login */
-form.form {
-    max-width: 400px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 80px;
+a:link, a:visited{
+    color: #003366
 }
-body.cadastro {
-    background: url('../images/women-working-together-country-side.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    margin: 0; 
-    display: absolute;
-    justify-content: center; 
-    align-items: center; 
+a:hover{
+    text-decoration: underline;
 }
-form.cadastro-form {
-    max-width: 400px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 40px;
-}
-
-
-.bloco {
-    width: 190px;
-    height: 254px;
-    border-radius: 20px;
-    background: #f5f5f5;
-    position: relative;
-    padding: 1.8rem;
-    border: 2px solid #c3c6ce;
-    transition: 0.5s ease-out;
-    overflow: visible;
-    display: inline-block; /* Adicione esta linha */
-    margin-right: 52px; /* Adicione margem direita se desejar espaçamento */
-}
-
-   .detalhe-bloco {
-    color: black;
-    height: 100%;
-    gap: .5em;
-    display: grid;
-    place-content: center;
-   }
-   
-   .botao-bloco {
-    transform: translate(-50%, 125%);
-    width: 60%;
-    border-radius: 1rem;
-    border: none;
-    background-color: #001f4d;
-    color: #fff;
-    font-size: 1rem;
-    padding: .5rem 1rem;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    opacity: 0;
-    transition: 0.3s ease-out;
-   }
-   
-   .texto-corpo {
-    color: rgb(134, 134, 134);
-   }
-   
-   /*Text*/
-   .titulo {
-    font-size: 1.5em;
-    font-weight: bold;
-   }
-   
-   /*Hover*/
-   .bloco:hover {
-    border-color: #001f4d;
-    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-    
-   }
-   
-   .bloco:hover .botao-bloco {
-    transform: translate(-50%, 50%);
-    opacity: 1;
-    cursor: pointer;
-   }
