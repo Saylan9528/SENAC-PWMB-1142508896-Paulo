@@ -1,0 +1,105 @@
+/* Limpar formatações padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Layout */
+#area-nav {
+    background-color: #003366;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
+.branco{
+    color: #fff;
+}
+
+#area-logo,
+#area-menu {
+    padding: 10px;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+#area-principal {
+    width: 660px;
+    margin-right: 20px;
+}
+
+#area-lateral {
+    width: 240px;
+}
+
+/* Post */
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+.postagem h2 {
+    color: #003366;
+}
+
+/* Lateral */
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Rodapé */
+#rodape {
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+    clear: both;
+}
+
+/* Menus */
+#area-nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#area-nav a:hover {
+    background: #fff;
+    color: #003366;
+}
+
+/* Formatações em geral */
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #003366;
+}
+
+a:hover {
+    text-decoration: underline;
+}
