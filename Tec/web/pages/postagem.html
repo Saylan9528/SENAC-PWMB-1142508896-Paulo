@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Postagem</title>
+        <meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/CSS/estilo.css"/>
+    </head>
+    <body>
+        <header>
+        <nav id ="area-cabecalho">
+            <section id="area-logo"><h1>TecBlog <span class="branco">admin</span></h1></section>
+            <section id="area-menu">
+                <a href="admin.jsp">Admin</a>
+                <a href="postagem.html">Postar</a>
+                <a href="artigos.jsp">Consultar</a>
+                <a href="alterar.jsp">Editar</a>
+                <a href="excluir.jsp">Deletar</a>
+                <a href="../index.html">Sair</a>
+            </section>
+        </nav>
+    </header>
+        
+    <main>
+        <section>
+            <form method="post" action="./criar_publicacao.jsp">
+
+                <h3 class="apre">Postagem</h3>
+                <input type="text" placeholder="Titulo" id="titulo" name="titulo" required>
+                
+                <textarea id="conteudo" placeholder="Conteudo" name="conteudo" rows="6" required></textarea><br>
+                
+                <label for="imagem">Selecione uma imagem</label>
+                <input type="file" id="imagem" name="imagem">
+                <br>
+                <label for="data">Data</label>
+                <input type="date" id="dataPublicacao" name="data" required>
+                
+                <input type="submit" value="Publicar"><br>
+            </form>
+        </section>
+        </main>
+        
+        <footer>
+            
+        </footer>
+    </body>
+</html>
+
